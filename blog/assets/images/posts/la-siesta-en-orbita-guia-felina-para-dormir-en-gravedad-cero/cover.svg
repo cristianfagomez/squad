@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1792 1024" width="1792" height="1024">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#0a1628"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes twinkle { 0%,100%{opacity:0.3} 50%{opacity:1} }
+      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-15px)} }
+      @keyframes drift { 0%{transform:translateX(0) translateY(0)} 25%{transform:translateX(8px) translateY(-5px)} 50%{transform:translateX(0) translateY(-12px)} 75%{transform:translateX(-8px) translateY(-5px)} 100%{transform:translateX(0) translateY(0)} }
+      .star { animation: twinkle var(--d,2s) infinite; }
+      .hero { animation: float 4s ease-in-out infinite; }
+      .particle { animation: drift 6s ease-in-out infinite; }
+    </style>
+  </defs>
+  <!-- Fondo espacial -->
+  <rect width="1792" height="1024" fill="url(#bg)"/>
+  <!-- Nebula suave -->
+  <ellipse cx="400" cy="300" rx="350" ry="200" fill="#6A0DAD" opacity="0.08"/>
+  <ellipse cx="1400" cy="700" rx="300" ry="180" fill="#1E90FF" opacity="0.07"/>
+  <ellipse cx="900" cy="512" rx="400" ry="250" fill="#0078d4" opacity="0.05"/>
+  <!-- Estrellas -->
+  <circle class="star" style="--d:1.8s" cx="87" cy="43" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle class="star" style="--d:2.3s" cx="215" cy="178" r="1" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" style="--d:3.1s" cx="342" cy="67" r="2" fill="#50e6ff" opacity="0.7"/>
+  <circle class="star" style="--d:1.5s" cx="478" cy="234" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle class="star" style="--d:2.7s" cx="612" cy="89" r="1" fill="#ffffff" opacity="0.4"/>
+  <circle class="star" style="--d:1.9s" cx="754" cy="145" r="1.5" fill="#50e6ff" opacity="0.5"/>
+  <circle class="star" style="--d:3.4s" cx="891" cy="32" r="1" fill="#ffffff" opacity="0.7"/>
+  <circle class="star" style="--d:2.1s" cx="1023" cy="201" r="2" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" style="--d:1.7s" cx="1167" cy="78" r="1.5" fill="#50e6ff" opacity="0.6"/>
+  <circle class="star" style="--d:2.9s" cx="1298" cy="156" r="1" fill="#ffffff" opacity="0.4"/>
+  <circle class="star" style="--d:3.6s" cx="1445" cy="43" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle class="star" style="--d:2.2s" cx="1589" cy="189" r="1.5" fill="#50e6ff" opacity="0.5"/>
+  <circle class="star" style="--d:1.4s" cx="1723" cy="97" r="1" fill="#ffffff" opacity="0.6"/>
+  <circle class="star" style="--d:2.8s" cx="56" cy="312" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle class="star" style="--d:3.2s" cx="178" cy="467" r="1" fill="#50e6ff" opacity="0.5"/>
+  <circle class="star" style="--d:1.6s" cx="301" cy="389" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle class="star" style="--d:2.5s" cx="534" cy="512" r="1.5" fill="#ffffff" opacity="0.3"/>
+  <circle class="star" style="--d:3.8s" cx="667" cy="423" r="1" fill="#50e6ff" opacity="0.6"/>
+  <circle class="star" style="--d:2.0s" cx="1289" cy="378" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" style="--d:1.3s" cx="1423" cy="489" r="1" fill="#ffffff" opacity="0.4"/>
+  <circle class="star" style="--d:2.6s" cx="1567" cy="334" r="2" fill="#50e6ff" opacity="0.7"/>
+  <circle class="star" style="--d:3.0s" cx="1698" cy="445" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" style="--d:1.8s" cx="112" cy="678" r="1" fill="#50e6ff" opacity="0.6"/>
+  <circle class="star" style="--d:2.4s" cx="245" cy="756" r="2" fill="#ffffff" opacity="0.4"/>
+  <circle class="star" style="--d:3.3s" cx="389" cy="823" r="1.5" fill="#ffffff" opacity="0.7"/>
+  <circle class="star" style="--d:2.1s" cx="1356" cy="712" r="1" fill="#50e6ff" opacity="0.5"/>
+  <circle class="star" style="--d:1.7s" cx="1489" cy="834" r="2" fill="#ffffff" opacity="0.6"/>
+  <circle class="star" style="--d:2.9s" cx="1634" cy="767" r="1.5" fill="#ffffff" opacity="0.4"/>
+  <circle class="star" style="--d:3.5s" cx="1756" cy="889" r="1" fill="#50e6ff" opacity="0.7"/>
+  <circle class="star" style="--d:2.3s" cx="67" cy="934" r="2" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" style="--d:1.5s" cx="198" cy="978" r="1.5" fill="#ffffff" opacity="0.3"/>
+  <circle class="star" style="--d:3.7s" cx="445" cy="956" r="1" fill="#50e6ff" opacity="0.6"/>
+  <circle class="star" style="--d:2.0s" cx="1123" cy="912" r="2" fill="#ffffff" opacity="0.5"/>
+  <circle class="star" style="--d:1.4s" cx="1267" cy="967" r="1.5" fill="#50e6ff" opacity="0.4"/>
+  <circle class="star" style="--d:2.8s" cx="1534" cy="991" r="1" fill="#ffffff" opacity="0.7"/>
+  <circle class="star" style="--d:3.1s" cx="1712" cy="945" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <!-- Partículas flotantes cyan -->
+  <circle class="particle" style="animation-delay:0s" cx="350" cy="480" r="3" fill="#50e6ff" opacity="0.4"/>
+  <circle class="particle" style="animation-delay:1.5s" cx="750" cy="350" r="2" fill="#00CFFF" opacity="0.35"/>
+  <circle class="particle" style="animation-delay:3s" cx="1150" cy="500" r="3" fill="#50e6ff" opacity="0.4"/>
+  <circle class="particle" style="animation-delay:0.8s" cx="1400" cy="300" r="2" fill="#00CFFF" opacity="0.3"/>
+  <circle class="particle" style="animation-delay:2.2s" cx="500" cy="650" r="2.5" fill="#50e6ff" opacity="0.35"/>
+  <!-- Hexágonos decorativos -->
+  <polygon points="200,380 220,370 240,380 240,400 220,410 200,400" fill="none" stroke="#00CFFF" stroke-width="1" opacity="0.25"/>
+  <polygon points="1550,200 1575,186 1600,200 1600,228 1575,242 1550,228" fill="none" stroke="#0078d4" stroke-width="1.5" opacity="0.3"/>
+  <polygon points="1620,580 1640,569 1660,580 1660,602 1640,613 1620,602" fill="none" stroke="#00CFFF" stroke-width="1" opacity="0.2"/>
+  <polygon points="130,560 155,546 180,560 180,588 155,602 130,588" fill="none" stroke="#0078d4" stroke-width="1.5" opacity="0.25"/>
+  <!-- Panel HUD holográfico izquierdo -->
+  <rect x="80" y="250" width="180" height="110" rx="4" fill="#00CFFF" opacity="0.04" stroke="#00CFFF" stroke-width="0.8" stroke-opacity="0.3"/>
+  <line x1="95" y1="270" x2="245" y2="270" stroke="#00CFFF" stroke-width="0.6" opacity="0.25"/>
+  <line x1="95" y1="285" x2="220" y2="285" stroke="#00CFFF" stroke-width="0.6" opacity="0.2"/>
+  <line x1="95" y1="300" x2="235" y2="300" stroke="#00CFFF" stroke-width="0.6" opacity="0.25"/>
+  <line x1="95" y1="315" x2="200" y2="315" stroke="#00CFFF" stroke-width="0.6" opacity="0.15"/>
+  <!-- Panel HUD derecho -->
+  <rect x="1530" y="560" width="180" height="110" rx="4" fill="#0078d4" opacity="0.04" stroke="#0078d4" stroke-width="0.8" stroke-opacity="0.3"/>
+  <line x1="1545" y1="580" x2="1695" y2="580" stroke="#0078d4" stroke-width="0.6" opacity="0.25"/>
+  <line x1="1545" y1="595" x2="1670" y2="595" stroke="#0078d4" stroke-width="0.6" opacity="0.2"/>
+  <line x1="1545" y1="610" x2="1685" y2="610" stroke="#0078d4" stroke-width="0.6" opacity="0.25"/>
+  <!-- Gato astronauta central con animación -->
+  <text x="896" y="470" class="hero" text-anchor="middle" font-size="140" filter="url(#glow)">🐱🚀</text>
+  <!-- Luna flotando (el casco de Luna orbita) -->
+  <text x="700" y="420" class="particle" text-anchor="middle" font-size="40" opacity="0.6">🪐</text>
+  <!-- Título del artículo -->
+  <text x="896" y="600" text-anchor="middle" font-family="monospace" font-size="32"
+        fill="#50e6ff" filter="url(#glow)" opacity="0.95">La Siesta en &#211;rbita: Gu&#237;a Felina para Do...</text>
+  <!-- Subtítulo / descripción breve -->
+  <text x="896" y="645" text-anchor="middle" font-family="monospace" font-size="18"
+        fill="#0078d4" opacity="0.7">&#x2728; Gravedad cero, siestas infinitas &#x2728;</text>
+  <!-- Badge modo SVG -->
+  <text x="1760" y="1010" text-anchor="end" font-family="monospace" font-size="14"
+        fill="#0078d4" opacity="0.5">svg-mode</text>
+</svg>
