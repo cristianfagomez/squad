@@ -3,7 +3,7 @@ title: "La Siesta en Órbita: Guía Felina para Dormir en Gravedad Cero"
 date: 2026-02-27T11:30:00+01:00
 draft: false
 categories: ["vida-gatuna"]
-image: "pending"
+image: "/assets/images/posts/la-siesta-en-orbita-guia-felina-para-dormir-en-gravedad-cero/cover.svg"
 summary: "Dormir en gravedad cero no es para cualquiera. Afortunadamente, los gatos llevamos milenios perfeccionando el arte del sueño en condiciones imposibles. Aquí van mis técnicas probadas desde la órbita baja terrestre."
 ---
 
